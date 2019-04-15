@@ -1,0 +1,240 @@
+
+/*----------------------------------------*/
+/*  Google Fonts
+/*----------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,800,900%7COpen+Sans:400,400i,600,700,700i,800');
+
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+html, body {
+	height: 100%;
+}
+.floatleft {
+	float:left;
+}
+.floatright {
+	float:right;
+}
+.alignleft {
+	float:left;
+	margin-right:15px;
+	margin-bottom: 15px;
+}
+.alignright {
+	float:right;
+	margin-left:15px;
+	margin-bottom: 15px;
+}
+.aligncenter {
+	display:block;
+	margin:0 auto 15px;
+}
+a:focus {
+	outline:0px solid;
+}
+img {
+    max-width:100%;
+	height:auto;
+}
+.fix {
+	overflow:hidden;
+}
+p {
+	margin:0 0 15px;
+    color: #777;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+	margin: 0 0 15px;
+	color: #444;
+    font-weight: 700;
+}
+h1{
+	font-size: 48px;
+	line-height: 50px;
+		
+}
+h2{
+	font-size: 38px;
+	line-height: 40px;
+		
+}
+h3{
+	font-size: 30px;
+	line-height: 32px;
+		
+}
+h4{
+	font-size: 24px;
+	line-height: 26px;
+		
+}
+h5{
+	font-size: 20px;
+	line-height: 22px;
+		
+}
+h6{
+	font-size: 16px;
+	line-height: 20px;
+		
+}
+a {
+	transition: all 0.3s ease 0s;
+	text-decoration:none;
+}
+a:hover {
+  color: #444;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+a:hover, a:focus {
+    color: #000;
+    text-decoration: none;
+}
+body {
+	background: #fff none repeat scroll 0 0;
+	color: #777;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	overflow-x: hidden;
+	line-height: 22px;
+}
+#scrollUp {
+  background: #000 none repeat scroll 0 0;
+  border-radius: 2px;
+  bottom: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  font-size: 20px;
+  height: 34px;
+  line-height: 30px;
+  opacity: 0.6;
+  right: 15px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  width: 34px;
+}
+#scrollUp:hover {
+    background: #4fb13f;
+    opacity: 1;
+}
+.clear{
+	clear:both;
+}
+ul{
+	list-style: outside none none;
+	margin: 0;
+	padding: 0;
+}
+input, select, textarea, input[type="text"], input[type="date"], input[type="url"], input[type="email"], input[type="password"], input[type="tel"], button, button[type="submit"] {
+	-moz-appearance: none;
+	box-shadow: none !important;
+}
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+.navbar-collapse {
+    padding-left: 0px;
+}
+::-moz-selection {
+    background: #43e22a;
+    text-shadow: none;
+}
+::selection {
+    background: #43e22a;
+    text-shadow: none;
+}
+.color{
+    color:#43e22a;
+    font-weight: 800;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+.area-padding{
+	padding: 90px 0px;
+}
+.area-padding-2{
+    padding: 70px 0px 50px;
+}
+.padding-2{
+    padding-bottom: 90px;
+}
+.section-headline{
+    margin-bottom: 60px;
+    position: relative;
+}
+.section-headline h3 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section-headline.white-headline h3 {
+    color:#fff;
+}
+.section-headline.text-left {
+    margin-bottom: 30px;
+}
+.section-headline::after {
+    border: 1px solid #43e22a;
+    bottom: -20px;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 60px;
+    right: 0;
+}
+.section-headline.text-left h3::after {
+    border: 2px solid #e22a31;
+    left: 0;
+    right: auto;
+}
+.section-headline p {
+    max-width: 650px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+    line-height: 26px;
+}
+.sub-head h4 {
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.sub-head h4::after {
+    border: 2px solid #43e22a;
+    bottom:0px;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 20%;
+}
+.sub-head p {
+    color: #fff;
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 26px;
+}
+.mar-row{
+    margin-top: 50px;
+}
+.small-title {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 10px;
+	color:#43e22a;
+}

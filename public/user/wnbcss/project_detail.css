@@ -1,0 +1,77 @@
+/*----------------------------------------
+ 27. Project Details page
+----------------------------------------*/
+.project-page-area .project-menu li a {
+    color: #444;
+}
+.project-2-column .project-single {
+    float: left;
+    width: 50%;
+}
+.project-4-column .project-single {
+    float: left;
+    width: 25%;
+}
+.project-carousel-2.owl-carousel.owl-theme .owl-controls .owl-nav div {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 38px;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    width: 40px;
+    border-radius: 50%;
+}
+.project-carousel-2.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev {
+    top: 50%;
+    position: absolute;
+    left: 3%;
+    margin-top: -30px;
+}
+.project-carousel-2.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev:hover,
+.project-carousel-2.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next:hover{
+    background: #43e22a;
+    border: 1px solid #43e22a;
+    color: #fff;
+}
+.project-carousel-2.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
+    margin-top: -30px;
+    position: absolute;
+    right: 3%;
+    top: 50%;
+}
+.project-history {
+    background: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.project-details h4 {
+    font-size: 26px;
+    font-weight: 600;
+}
+.project-name ul li {
+    color: #444;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 10px 0px;
+}
+.project-name span {
+    padding-right: 15px;
+    min-width: 110px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+}
+.project-inner {
+    margin-bottom: 30px;
+}
+.project-details p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}

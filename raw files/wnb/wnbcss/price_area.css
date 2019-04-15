@@ -1,0 +1,93 @@
+/*----------------------------------------*/
+/* 18. Pricing css
+/*----------------------------------------*/
+.pricing-area {
+    background: #fff;
+}
+.pricing-content {
+    margin-top: 50px;
+}
+.top-price-inner {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 20px;
+}
+.top-price-inner h4 {
+    color: #444;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+span.users {
+    color: #46e22a;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+.prices {
+    font-size: 26px;
+    font-weight: 600;
+    color: #444;
+    padding-right: 10px;
+}
+.table-list {
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    padding: 20px 0px;
+}
+.table-list ol li {
+    color: #666;
+    padding: 12px 0px;
+    position: relative;
+    text-align: center;
+}
+.price-btn {
+    padding: 30px 20px;
+}
+.price-btn a {
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 12px 30px;
+    background: #e22a31;
+    border: 1px solid #e22a31;
+    letter-spacing: 1px;
+}
+.table-list > h3 {
+    color: #455454;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: capitalize;
+    transition: all 0.4s ease 0s;
+}
+.table-list ol {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.price-btn a:hover {
+    background: #fff;
+    color: #e22a31;
+    border: 1px solid #e22a31;
+}
+span.base {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e22a31;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50px;
+    font-weight: 700;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}

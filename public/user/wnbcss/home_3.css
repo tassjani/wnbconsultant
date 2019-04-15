@@ -1,0 +1,110 @@
+/*--------------------------------*/
+/* 17 Home page 3
+/*--------------------------------*/
+.intro-area-3 .slider-content {
+    margin-top: -160px;
+    text-align: center;
+}
+.intro-area-3 .layer-1-2 h1 {
+    max-width: 100%;
+}
+.intro-area-3 .layer-1-1 p {
+    max-width: 100%;
+}
+.header-middle-area .header-info {
+    width: 33.33%;
+    float: left;
+    padding: 33px 0px;
+}
+.header-middle-area .header-info-text span {
+    display: block;
+    font-size: 14px;
+}
+.header-middle-area .info-simple{
+    font-weight: 700;
+    color: #777;
+    font-size:12px;
+}
+.header-middle-area .header-icon {
+    float: left;
+    margin-right: 10px;
+}
+.header-middle-area .logo a{
+    padding: 25px 0;
+}
+.header-icon i {
+    color: #e22a31;
+    font-size: 34px;
+    line-height: 40px;
+}
+.info-first {
+    font-weight: 700;
+    color: #444;
+}
+.header-area-3 {
+    background:#fff;
+    border-top:1px solid rgba(226,46,49,0.20);
+}
+.header-area-3.stick {
+    background:#fff;
+}
+.header-area-3 .navbar.navbar-default {
+    float: left;
+}
+.header-area-3 .main-menu ul.navbar-nav li a {
+    padding: 20px 15px;
+    color: #444;
+}
+.header-area-3 .main-menu ul.navbar-nav li.active >a,
+.header-area-3 .main-menu ul.navbar-nav li a:hover{
+    background:#e22a31;
+    color:#fff;
+}
+.header-area-3 .header-right-link a.main-search {
+    padding: 14px 15px;
+    color:#444;
+}
+.counter-area-2 .about-count {
+    padding:70px 0px;
+}
+.counter-area-2 .fun_text {
+    float: left;
+    width: 23%;
+    margin-right: 30px;
+    padding: 50px 10px;
+    margin-bottom: 0px;
+    background: rgba(0,0,0,0.50);
+    border: 1px solid #e22a31;
+}
+.fun_text:nth-child(4n) {
+    margin-right: 0px;
+}
+.project-area-3 .project-dec::before {
+    display: none;
+}
+.project-area-3 .single-awesome-project {
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+.project-area-3 .project-dec {
+    padding: 15px 15px 5px 15px;
+}
+.choose-area-2 .col-md-6{
+    padding-left: 0px;
+}
+.choose-area-2 .choose-wrapper {
+    background: #fff;
+    padding: 80px 110px 80px 40px;
+}
+.choose-area-2 .single-services {
+    border: none;
+    margin-top: 0px;
+}
+.choose-area-2 .single-services:hover .service-images {
+    margin-top:0px;
+}
+.choose-area-2 .services-all {
+    margin-top: 10px;
+}
+.choose-area-2 .single-services .service-content p {
+    margin-bottom: 0px;
+}

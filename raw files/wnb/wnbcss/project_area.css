@@ -1,0 +1,129 @@
+/*--------------------------------*/
+/*  8.project Area
+/*--------------------------------*/
+.project-area {
+    background: #fff none repeat scroll 0 0;
+}
+.single-awesome-project {
+    float: left;
+    overflow: hidden;
+    width:100%;
+}
+.first-item {
+    margin-bottom: 30px;
+}
+.project-carousel .col-md-4{
+    width: 100%;
+}
+.awesome-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.awesome-img img{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.single-awesome-project:hover .awesome-img img{
+    transform: scale(1);
+    transition: 0.4s;
+}
+.awesome-img > a {
+    display: block;
+    position: relative;
+}
+.single-awesome-project:hover .awesome-img > a::after{
+    opacity: 1;
+}
+.single-awesome-project:hover .add-actions{
+    opacity: 1;
+}
+.awesome-img > a::after {
+    background: rgba(0,0,0,0.70) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    transition: 0.4s;
+}
+.add-actions {
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    cursor: pointer;
+}
+.port-icon {
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    top: 41%;
+    position: relative;
+    font-size: 40px;
+}
+.project-dec {
+    display: block;
+    padding: 15px 0px 0px 0px;
+}
+.project-dec h4 {
+    color: #444;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.project-dec a {
+    color: #444;
+}
+.project-dec a:hover {
+    color: #333;
+}
+.project-dec p {
+    color: #444;
+    font-weight: 400;
+}
+.pst-content {
+    padding-left: 10px;
+}
+.single-awesome-project:hover .project-dec h4 {
+    color:#4fe22a;
+}
+.project-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, 
+.project-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
+    color: #4fe22a;
+    font-size: 16px;
+    position: absolute;
+    top: -12%;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e22a31;
+    text-align: center;
+    background: #fff;
+    line-height: 30px;
+}
+.project-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev {
+    right: 51px;
+}
+.project-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
+    right: 15px;
+}
+.project-carousel.owl-carousel.owl-theme:hover .owl-controls .owl-nav div.owl-next:hover,
+.project-carousel.owl-carousel.owl-theme:hover .owl-controls .owl-nav div.owl-prev:hover{
+    color:#fff;
+    background: #e22a31;
+    border: 1px solid #e22a31;
+}

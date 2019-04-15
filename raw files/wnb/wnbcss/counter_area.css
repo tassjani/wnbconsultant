@@ -1,0 +1,103 @@
+/*----------------------------------------*/
+/* 7.Counter Area
+/*----------------------------------------*/
+.counter-area{
+   background: rgba(0, 0, 0, 0) url("img/background/bg1.jpg") no-repeat scroll center center / cover; 
+}
+.counter-inner {
+    background: #f6f6f6;
+    padding: 100px 70px 100px 80px;
+}
+.parallax-bg{
+    position:relative;
+}
+.parallax-bg:before{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:.8;
+    content:"";
+}
+.counter-area .col-md-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.counter-inner p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #444;
+    letter-spacing: 0.60px;
+}
+.counter-inner h4 {
+    color: #444;
+    text-transform: uppercase;
+    line-height: 36px;
+    font-size: 23px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 15px;
+}
+.counter-inner h4 ::after {
+    border: 1px solid #e22a31;
+    bottom: 0px;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 12%;
+}
+.counter-count {
+    padding: 57px 0px;
+}
+.about-count {
+    padding: 95px 80px 95px 70px;
+}
+.fun-content {
+    overflow: hidden;
+    padding: 20px 0px;
+    display: block;
+}
+.fun_text > a {
+    color: #fff;
+    display: inline-block;
+    font-size: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #e22a31;
+    text-align: center;
+}
+.fun_text {
+    float: left;
+    width: 48%;
+    text-align: center;
+    background: rgba(0,0,0,0.70);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 30px 15px;
+}
+.fun_text:nth-child(2n),
+.fun_text:nth-child(4n){
+    margin-right: 0px;
+}
+.fun_text:nth-child(3n),
+.fun_text:nth-child(4n){
+    margin-bottom: 0px;
+}
+.fun_text span {
+    color: #fff;
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    line-height: 40px;
+}
+.fun_text > h5 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}

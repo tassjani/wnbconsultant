@@ -1,0 +1,33 @@
+/* ====================================
+    
+    Template: wira nusantara bumi
+
+====================================== */
+
+@import url("wnbcss/about_area.css");
+@import url("wnbcss/banner_area.css");
+@import url("wnbcss/blog_area.css");
+@import url("wnbcss/blog_detail.css");
+@import url("wnbcss/bread_cums.css");
+@import url("wnbcss/contact_us_area.css");
+@import url("wnbcss/counter_area.css");
+@import url("wnbcss/faq_area.css");
+@import url("wnbcss/footer_area.css");
+@import url("wnbcss/header.css");
+@import url("wnbcss/home_2.css");
+@import url("wnbcss/home_3.css");
+@import url("wnbcss/home_4.css");
+@import url("wnbcss/modal.css");
+
+@import url("wnbcss/price_area.css");
+@import url("wnbcss/project_area.css");
+@import url("wnbcss/project_detail.css");
+@import url("wnbcss/project_page.css");
+@import url("wnbcss/quote_area.css");
+@import url("wnbcss/service_area.css");
+@import url("wnbcss/slider.css");
+@import url("wnbcss/sub_services_page.css");
+@import url("wnbcss/team_area.css");
+@import url("wnbcss/testimonial_area.css");
+@import url("wnbcss/video_area.css");
+@import url("wnbcss/welcome_service_area.css");

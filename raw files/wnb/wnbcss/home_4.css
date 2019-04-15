@@ -1,0 +1,33 @@
+/*--------------------------------*/
+/*  20. Home pages 4
+/*--------------------------------*/
+.intro-area-4 .slider-content {
+    margin-top: -160px;
+}
+.services-area-2 .single-services {
+    text-align: center;
+    padding: 40px 10px;
+}
+.services-area-2 .service-images {
+    float: none;
+    margin-right: 0px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.services-area-2 .services-all .service-content {
+    padding-left: 0px;
+}
+.services-area-2 .single-services:hover .service-images {
+    margin-top: 0px;
+}
+.single-services .service-content p {
+    color: #666;
+    margin-bottom: 0px;
+}
+.project-carousel .single-awesome-project {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 5px;
+}

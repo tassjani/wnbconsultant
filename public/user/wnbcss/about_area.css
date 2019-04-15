@@ -1,0 +1,68 @@
+/*----------------------------------------*/
+/*  5. About area
+/*----------------------------------------*/
+.about-area{
+    background: #f6f6f6;
+}
+.about-content h4 {
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-size: 22px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.about-content h4 ::after {
+    border: 1px solid #43e22a;
+    bottom: 0px;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 12%;
+}
+.about-content p {
+    font-size: 14px;
+    letter-spacing: 0.50px;
+    line-height: 24px;
+}
+.about-details {
+    overflow: hidden;
+    display: block;
+    padding-top: 10px;
+}
+.icon-title{
+    display: block;
+    overflow: hidden;
+}
+.single-about {
+    width: 48%;
+    float: left;
+    margin-right: 20px;
+}
+.single-about p{
+    text-align: left;
+}
+.single-about:nth-child(2n),
+.single-about:nth-child(4n){
+    margin-right:0px;
+}
+.single-about:nth-child(3n),
+.single-about:nth-child(4n){
+    margin-bottom:0px;
+}
+.single-about a {
+    font-size: 40px;
+    color: #43e22a;
+    float: left;
+    line-height: 49px;
+}
+.single-about h5 {
+    font-size: 18px;
+    color: #666;
+    float: left;
+    line-height: 50px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    font-weight: 600;
+}

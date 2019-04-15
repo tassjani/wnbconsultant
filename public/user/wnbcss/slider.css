@@ -1,0 +1,219 @@
+/*----------------------------------------*/
+/*  3. Slider Area
+/*----------------------------------------*/
+/* .intro-content {
+    position: relative;
+    z-index: 1;
+}
+.intro-content::after {
+    background: rgba(10, 27, 40, 0.8) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+} */
+
+@import url(font: Expansiva);
+
+.slider-content {
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 100%;
+    z-index: 3;
+    left: 300px;
+    margin: 0 auto;
+    margin-top: -90px;
+}
+.layer-1-2 {
+    margin: 20px 0;
+}
+.font-face {
+    font-family: Expansiva;
+    src: url(Expansiva.otf);
+    font-weight:400;
+}
+
+.layer-1-1 p {
+    color: #fff;
+    font-size: 19px;
+    letter-spacing: 0.60px;
+    line-height: 30px;
+    max-width: 700px;
+    font-family: Expansiva;
+}
+.layer-1-2 h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    max-width: 700px;
+}
+.slider-content-master {
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 50%;
+    z-index: 3;
+    left: 900px;
+    margin: 0 auto;
+    margin-top: -90px;
+}
+.layer-master1 h1,
+.layer-master2 h1,
+.layer-master3 h1,
+.layer-master4 h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    max-width: 700px;
+    text-align: right;
+    /*font-family: Expansiva;*/
+}
+.ready-btn {
+    border: 1px solid #4fb13f;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    z-index: 222;
+    background: #4fb13f;
+    width: 150px;
+    border-radius: 3px;
+}
+.ready-btn:hover{
+    color: #fff;
+    background: #e22a31;
+    border: 1px solid #4fb13f;
+    text-decoration: none;
+}
+.ready-btn.right-btn {
+    margin-left: 15px;
+    background: #252525;
+    border: 1px solid #252525;
+}
+.ready-btn.right-btn:hover{
+    background: #4fb13f;
+    border: 1px solid #4fb13f;
+}
+.ready-btn.left-btn:hover{
+    background: #252525;
+    border: 1px solid #252525;
+}
+.layer-1-2 .color {
+    color: #4fb13f;
+    font-weight: 900;
+}
+.layer-master1 .color {
+    color: #4fb13f;
+    font-weight: 900;
+}
+.intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, 
+.intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
+    color: #fff;
+    font-size: 18px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;;
+    text-align: center;
+    line-height: 39px;
+    opacity: 0;
+    border:1px solid #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev{
+    left: 10%;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -ms-transition: 0.4s;
+}
+.intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
+    right: 10%;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -ms-transition: 0.4s;
+}
+.intro-carousel.owl-carousel.owl-theme:hover .owl-controls .owl-nav div.owl-next{
+    right: 2%;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -ms-transition: 0.4s;
+    opacity: 1;
+}
+.intro-carousel.owl-carousel.owl-theme:hover .owl-controls .owl-nav div.owl-prev{
+    left: 2%;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -ms-transition: 0.4s;
+    opacity: 1;
+}
+.intro-carousel.owl-carousel.owl-theme:hover .owl-controls .owl-nav div.owl-next:hover,
+.intro-carousel.owl-carousel.owl-theme:hover .owl-controls .owl-nav div.owl-prev:hover{
+    color:#fff;
+    background: #4fb13f;
+    border: 1px solid #4fb13f;
+}
+.intro-carousel .owl-item .layer-master1{
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s ease-in-out 0.3s;
+}
+.intro-carousel .owl-item .layer-master2{
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s ease-in-out 1s;
+}
+.intro-carousel .owl-item .layer-master3{
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s ease-in-out 1.5s;
+}
+.intro-carousel .owl-item .layer-master4{
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s ease-in-out 2s;
+}
+.intro-carousel .owl-item .layer-1-2{
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s ease-in-out 0.3s;
+}
+.intro-carousel .owl-item .layer-1-1{
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s ease-in-out 1s;
+}
+.intro-carousel .owl-item .layer-1-3{
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s ease-in-out 1.5s;
+}
+
+.intro-carousel .owl-item.active .layer-master1,
+.intro-carousel .owl-item.active .layer-master2,
+.intro-carousel .owl-item.active .layer-master3,
+.intro-carousel .owl-item.active .layer-master4,
+.intro-carousel .owl-item.active .layer-1-2,
+.intro-carousel .owl-item.active .layer-1-1,
+.intro-carousel .owl-item.active .layer-1-3{
+    transform: translateY(0);
+    opacity: 1;
+}

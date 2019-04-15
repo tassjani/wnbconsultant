@@ -1,0 +1,119 @@
+/*--------------------------------*/ 
+/* 25. Faq Area
+/*--------------------------------*/
+.testimonial-review .single-testi{
+    margin-top: 30px;
+}
+.faq-details .panel-heading {
+    padding: 0;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+.panel-default {
+    border-color: #ddd;
+    border-radius: 0 !important;
+}
+.panel-group .panel+.panel {
+    margin-top: 10px;
+}
+.panel-default > .panel-heading {
+    color: #666;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #ddd;
+    background: #fff;
+}
+.faq-details h4.check-title a {
+    color: #666;
+    display: block;
+    font-weight: 500;
+    padding: 10px 10px 10px 40px;
+    text-decoration: none;
+    background: #fff;
+}
+.panel-body {
+    padding: 15px 15px 0px 45px;
+}
+.faq-details h4.check-title {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+.faq-details a span.acc-icons {
+    position: relative;
+}
+.faq-details a span.acc-icons::before {
+    color: #666;
+    content:"\e874 ";
+    font-family: consulting;
+    font-size: 16px;
+    left: -26px;
+    line-height: 39px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+}
+.faq-details a.active span.acc-icons::before {
+    color: #e22a31;
+    content: "\e873";
+    font-family: consulting;
+    font-size: 16px;
+    left: -26px;
+    line-height: 39px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+}
+.faq-details .panel-heading h4 a.active {
+    color: #e22a31;
+    background: #f9f9f9;
+}
+.faq-content {
+    background: #f9f9f9;
+    padding: 5% 15%;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+.faq-content .quote-btn:hover {
+    color: #e22a31;
+    background: #fff;
+    border: 1px solid #e22a31;
+}
+.faq-content .contact-form textarea#message {
+    height: 135px;
+}
+.error-easy-text {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.high-text{
+    font-size: 200px;
+    line-height: 200px;
+}
+.error-bot{
+    font-size: 24px;
+}
+.error-btn {
+    background: #e22a31;
+    border: 1px solid #e22a31;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    transition: 0.4s;
+    margin-top: 15px;
+    text-transform: capitalize;
+    margin-top: 30px;
+    display: inline-block;
+}
+.error-btn:hover{
+    background: #fff;
+    border: 1px solid #e22a31;
+    color: #e22a31;
+}

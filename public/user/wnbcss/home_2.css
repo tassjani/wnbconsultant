@@ -1,0 +1,76 @@
+/*--------------------------------*/
+/* 14. Home-2
+/*--------------------------------*/
+
+
+.topbar-area-2{
+    background: #4fb13f;
+}
+.header-area-2 {
+    background:#fff;
+}
+.header-area-2 .header-right-link a.main-search{
+    color:#444;
+}
+.header-area-2.stick{
+    background: #fff;
+}
+.intro-area-2 .slider-content {
+    margin-top: -160px;
+}
+.project-all{
+    margin-top: -30px;
+}
+.project-all .single-awesome-project {
+    margin-top: 30px;
+}
+/*--------------------------------*/
+/* 15.Why choose Area
+/*--------------------------------*/
+.choose-area{
+    background-image: url("img/background/bg1.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-headline{
+    position: relative;
+    padding-bottom: 10px;
+}
+.choose-area .services-all {
+    margin-top: -10px;
+}
+.left-headline::after {
+    border: 1px solid #e22a31;
+    bottom: -15px;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 60px;
+    right: auto;
+}
+.left-headline p {
+    margin: initial;
+}
+.choose-wrapper{
+    background: #fff;
+    padding: 80px 30px 80px 100px;
+}
+.services-all .service-content {
+    padding-left: 75px;
+}
+.single-services .service-content h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.single-services .service-content h4 a {
+    color: #444;
+}
+.single-services .service-content h4 a:hover {
+    color: #e22a31;
+}
+.single-services .service-content p{
+    color:#666;
+}

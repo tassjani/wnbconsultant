@@ -1,0 +1,153 @@
+/*----------------------------------------*/
+/*  13. Footer Area
+/*----------------------------------------*/
+.footer-area {
+    padding: 70px 0;
+    background: #111;
+}
+.footer-logo{
+    margin-bottom: 15px;
+}
+.footer-head p {
+    color: #ddd;
+}
+.footer-head h4 {
+    color: #ddd;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.footer-head .single-blog {
+    margin-bottom: 25px;
+    position: relative;
+    margin-top: 0;
+}
+.footer-head .blog-content a h4 {
+    color: #fff;
+    margin-bottom: 0px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer-content .blog-img{
+    width: 80px;
+    height: auto;
+    float: left;
+}
+.footer-content .blog-content {
+    padding-left: 90px;
+}
+.footer-content .blog-meta {
+    padding-top: 2px;
+    padding-bottom: 0;
+}
+.footer-content .blog-meta span {
+    color: #ccc;
+}
+.footer-content .blog-title {
+    margin-top:0px;
+}
+.footer-head .blog-content a h4:hover{
+    color: #e22a31;
+}
+.footer-head .blog-content a h4:hover{
+    color: #e22a31;
+}
+.footer-head .blog-btn {
+    color: #43e22a;
+}
+.footer-head .blog-text p {
+    margin-bottom: 10px;
+}
+.footer-icons ul li {
+    display: inline-block;
+}
+.footer-icons ul li a {
+    color: #ddd;
+    display: block;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+.footer-tags li a:hover,
+.footer-icons ul li a:hover{
+    color: #fff;
+    background: #43e22a;
+    border:1px solid #43e22a;  
+}
+.footer-tags li {
+    float: left;
+}
+.footer-tags li a {
+    color: #ddd;
+    display: block;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin: 3px;
+    border: 1px solid #222;
+    background: #222;
+    font-weight: 600;
+    padding: 3px 5px;
+    border-radius: 2px;
+}
+.footer-icons {
+    margin-top: 30px;
+}
+.footer-contacts p span {
+    color: #43e22a;
+    font-weight: 700;
+}
+.footer-content {
+    display: block;
+    overflow: hidden;
+}
+.footer-list li a {
+    color: #ddd;
+    padding: 7px 0px 7px 20px;
+    display: block;
+    position: relative;
+    font-weight: 500;
+}
+.footer-list li a:first-child{
+    padding-top: 0px;
+}
+.footer-list li a::after {
+    position: absolute;
+    content: "\e87a";
+    right: auto;
+    top: 2px;
+    font-family: consulting;
+    font-size: 12px;
+    left: 0;
+}
+.footer-list li a:hover {
+    color: #43e22a;
+}
+.footer-area-bottom {
+    background: #111 none repeat scroll 0 0;
+    padding: 25px 0;
+    border-top: 1px solid #333;
+}
+.copyright-text a:hover{text-decoration: underline;color:#43e22a;}
+.copyright-text a {
+    color: #fff;
+}
+.copyright > p {
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+}
+.copyright a {
+    color: #43e22a;
+}
+.single-brand-item a {
+    border: 1px solid #f5f5f5;
+    display: block;
+}

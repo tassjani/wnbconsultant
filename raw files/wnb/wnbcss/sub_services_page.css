@@ -1,0 +1,257 @@
+/*----------------------------------------*/
+/* 26.Sub Services Pages
+/*----------------------------------------*/
+.single-page-head {
+    margin-bottom: 30px;
+}
+.single-services-page p {
+    color: #666;
+    margin-bottom: 0px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.left-menu li:first-child {
+    margin: 0px 0px 2px
+}
+.left-contact h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.left-menu li {
+    display: block;
+}
+.build-img .page-img {
+    padding-bottom: 0;
+}
+.left-menu ul li.active a {
+    background: #fff none repeat scroll 0 0;
+    color: #e22a31;
+    position: relative;
+}
+.left-menu ul li a:hover {
+    color: #e22a31;
+    background: #fff; 
+}
+.left-menu ul li a {
+    background: #f9f9f9;
+    color: #666;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 14px 20px 14px 20px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.left-menu ul li.active a::after, .left-menu ul li a:hover::after {
+    content: "\e87a";
+    font-family: consulting;
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.about-btn{
+    background: #f9f9f9;
+}
+.down-btn {
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+    position: relative;
+}
+.about-btn .down-btn i{
+    padding-right: 10px;
+}
+.down-btn:hover{
+    color:#e22a31;
+    background: #fff;
+}
+.single-page-head .clients-testi {
+    padding: 20px 15px;
+    border: 1px solid #42e22a;
+}
+.single-page-head .review-text {
+    margin-top: 20px;
+}
+.clients-testi .review-text a,
+.clients-testi .guest-rev {
+    color: #666;
+}
+.clients-testi .single-review {
+    border: none;
+}
+.single-page-head .review-img img{
+    width: 80px;
+    border-radius: 50%;
+}
+.single-page-head .review-text h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.single-page-head .review-text p {
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-style: italic;
+}
+.single-well h3 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+.clients-support {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.support-text {
+    padding: 20px;
+    background: #e22a31;
+    transition: 0.4s;
+    padding: 30px 15px;
+}
+.support-text h4{
+    color:#fff;
+    font-weight: 700;
+}
+.support-text a {
+    margin: 30px 0px 15px;
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+}
+.support-text p {
+    font-size: 18px;
+    line-height: 26px;
+    color:#fff;
+    font-weight: 700;
+}
+.support-text a i {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 22px;
+    padding-right: 8px;
+}
+.support-img {
+    overflow: hidden;
+}
+.support-img img {
+   transform: scale(1.1);
+    transition: 0.4s;
+}
+.clients-support:hover .support-img img {
+   transform: scale(1);
+    transition: 0.4s;
+}
+.clients-support:hover .support-text {
+    background: rgba(226,42,49,0.99) none repeat scroll 0 0;
+}
+.page-content h3 {
+    font-weight: 600;
+    padding: 15px 0 0;
+}
+.single-well {
+    margin-top: 20px;
+}
+.single-well a h4 {
+    font-weight: 600;
+    line-height: 30px;
+}
+.single-page {
+    overflow: hidden;
+}
+.service-list li {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    color: #666;
+}
+.service-list li::before{
+    position: absolute;
+    left: 0;
+    content:"\f00c";
+    font-family:fontawesome;
+    top:0;
+    color: #e22a31;
+}
+.single-page-head .service-btn{
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+}
+.single-services-page .marker-list li {
+    color: #666;
+}
+.mar-row .single-well {
+    margin-top: 0px;
+}
+.marker-list li {
+    color: #666;
+    padding-left: 30px;
+    margin: 10px 0px;
+    position: relative;
+    font-size: 15px;
+}
+.marker-list li::after {
+    position: absolute;
+    content: "\e87f";
+    left: 0;
+    top: 3px;
+    font-family: consulting;
+    color: #e22a31;
+    font-weight: 700;
+}
+.tab-menu {
+    display: block;
+    text-align: center;
+}
+.tab-menu ul.nav{
+    margin: 0;
+    padding: 0;
+}
+.tab-menu ul.nav li {
+    border: medium none;
+    display: inline-block;
+}
+.tab-menu ul.nav li a {
+    color: #42e22a;
+    border: 1px solid #11ccf7;
+}
+.tab-menu ul.nav li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-radius: 0;
+    color: #444;
+    display: block;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    width: 131px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background-color: #42e22a !important;
+  border-color: #11ccf7;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  color: #fff !important;
+  cursor: default;
+  position: relative;
+}
+.event-content.head-team h5 {
+    background: #42e22a none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}

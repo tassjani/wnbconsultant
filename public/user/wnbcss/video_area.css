@@ -1,0 +1,85 @@
+/*----------------------------------------*/
+/* 19. Video area css
+/*----------------------------------------*/
+.parallax-bg-1{
+    position:relative;
+    background: rgba(0, 0, 0, 0) url("img/background/bg1.jpg") no-repeat scroll center center / cover;
+}
+.parallax-bg-1:before{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:.6;
+    content:"";
+}
+.video-inner.text-center > h3 {
+    color: #fff;
+    margin-top: 30px;
+}
+.video-played p {
+    color: #fff;
+    padding: 0px 200px;
+    margin-top: 20px;
+}
+.video-play.vid-zone {
+    background: #e22a31 none repeat scroll 0 0;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 28px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    width: 80px;
+}
+.video-play.vid-zone i {
+    color: #fff;
+    margin-left: 5px;
+}
+.video-play.vid-zone:hover {
+    background: #fff;
+    color: #e22a31;
+}
+.video-play.vid-zone:hover i{
+    color: #e22a31;
+}
+.blog-area-2 .image-scale::after {
+    display: none;
+}
+.banner-area-2{
+    background: #e22a31;
+}
+.banner-area-2{
+    padding: 30px 0px;
+}
+.banner-area-2 .banner-content h4 {
+    margin: initial;
+    float: left;
+    font-size: 24px;
+    max-width: 680px;
+    line-height: 30px;
+}
+.banner-area-2 .banner-contact {
+    padding: 15px 0px;
+}
+.banner-area-2 .banner-btn {
+    border: 1px solid #111;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    background: #111;
+    border-radius: 2px;
+    float: right;
+}
+.banner-area-2 .banner-btn:hover{
+    border: 1px solid #fff;
+    color: #e22a31;
+    background: #fff;
+}
+.blog-area-2 {
+    background: #fff;
+}

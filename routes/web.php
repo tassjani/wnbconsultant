@@ -117,18 +117,4 @@ Route::group(['namespace' => 'Admin'], function(){
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-// Route::prefix('admin')->group(function(){
-// 	//Admin login
-	
-// 	 Route::get('admin/login', 'Auth\LoginController@showLoginForm')->name('admin.login');
-	
-// 	Route::post('admin/login', 'Auth\LoginController@login');
 
-// 	Route::get('admin/logout', function(){
-// 		return view('admin.login');
-// 	});
-
-// 	Route::post('admin/logout', 'Auth\LoginController@logout')->name('admin.logout');
-// 	Route::get('admin/home','HomeController@index')->name('admin/home');
-
-// });

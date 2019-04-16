@@ -76,9 +76,9 @@
 <div class="about-area area-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="about-image">
-                            <img src="{{asset('user/img/about/profil1.gif')}}" alt="">
+                    <div class="col-md-6 col-sm-6 col-xs-12" style="top: -100px !important; left: -200px !important;">
+                        <div class="about-image"  style=" width: 800px; height: 450px;" >
+                            <img src="{{asset('user/img/about/profil1.gif')}}"  alt="">
                         </div>
                     </div>
                     <!-- column end -->
@@ -112,8 +112,8 @@
                     <!-- single-well end-->
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="well-services text-center">
-                            <div class="services-img">
-                                <img src="{{asset('user/img/background/5.jpg')}}" alt="">
+                            <div class="services-img" >
+                                <img src="{{asset('user/img/service/6.jpg')}}" style="width: 400px; height: 200px;" alt="">
                                 <div class="image-layer">
                                     <a href="index.html#"><i class="flaticon-graph" ></i></a>
                                 </div>
@@ -122,7 +122,7 @@
                                 <div class="service-content">
                                     <h4>Construction Management</h4>
                                     <p>professional service that uses specialized, project management techniques.</p>
-                                    
+                                    <br>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +131,7 @@
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="well-services text-center">
                             <div class="services-img">
-                                <img src="{{asset('user/img/background/h2.jpg')}}" alt="">
+                                <img src="{{asset('user/img/background/h2.jpg')}}" style="width: 400px; height: 200px;" alt="">
                                 <div class="image-layer">
                                     <a href="index.html#"><i class="flaticon-diagram" ></i></a>
                                 </div>
@@ -139,7 +139,8 @@
                             <div class="main-services">
                                 <div class="service-content">
                                     <h4>Advisory</h4>
-                                    <p>focus on the processes required to effectively and efficiently plan and manage projects.</p>
+                                    <p>Focus on the processes required to effectively and efficiently plan and manage projects.</p>
+                                    <br>
                                     
                                 </div>
                             </div>
@@ -149,7 +150,7 @@
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="well-services text-center">
                             <div class="services-img">
-                                <img src="{{asset('user/img/background/4.jpg')}}" alt="">
+                                <img src="{{asset('user/img/background/4.jpg')}}" style="width: 400px; height: 200px;" alt="">
                                 <div class="image-layer">
                                     <a href="index.html#"><i class="flaticon-graph-3" ></i></a>
                                 </div>

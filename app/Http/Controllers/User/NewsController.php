@@ -26,9 +26,11 @@ class NewsController extends Controller
     
     public function newshome()
     {
-        $news = news::where('created_at','desc')->paginate(3);
+        $news = news::where('status',1)
+        ->latest()
+        ->paginate(3);
 
-        return view('/home',compact('news'));
+        return view('user/home',compact('news'));
     }
 
    

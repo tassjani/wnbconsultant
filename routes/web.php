@@ -21,6 +21,8 @@ Route::group(['namespace' => 'User'], function(){
 
 	Route::get('home','HomeController@index')->name('home');
 
+	Route::get('/','AboutController@show');
+
 	Route::get('about', 'AboutController@about')->name('about');
 
 	Route::get('services','ServiceController@index')->name('services');
@@ -32,6 +34,8 @@ Route::group(['namespace' => 'User'], function(){
 	//Route::get('newsdetail','NewsController@shownews')->name('newsdetail');
 
 	Route::get('news','NewsController@Index')->name('news');
+
+	Route::get('/','NewsController@newshome');
 
 	Route::get('/newsdetail/{id}',['as' =>'news.shownews', 'uses' => 'NewsController@shownews']);
 

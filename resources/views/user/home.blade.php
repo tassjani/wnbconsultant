@@ -76,7 +76,7 @@
 <div class="about-area area-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12" style="top: -100px !important; left: -200px !important;">
+                    <div class="col-md-6 col-sm-6 col-xs-12" style="top: -50px !important; left: -200px !important;">
                         <div class="about-image"  style=" width: 800px; height: 450px;" >
                             <img src="{{asset('user/img/about/profil1.gif')}}"  alt="">
                         </div>
@@ -84,8 +84,11 @@
                     <!-- column end -->
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="about-content">
+                            
                             <h4>Welcome to WNB consultant.</h4>
-                            <p>The development of toll roads in Indonesia often encounter many issues, such as business planning, financing, land acquisition and construction. PT Wira Nusantara Bumi was established base on the need to participate the development of toll roads in Indonesia Our company was founded in 1990, which started out as Engineering Consulting firm but since then have solely focused on toll roads development consultancy.</p>
+                            <p>
+                                The development of toll roads in Indonesia often encounter many issues, such as business planning, financing, land acquisition and construction. PT Wira Nusantara Bumi was established base on the need to participate the development of toll roads in Indonesia Our company was founded in 1990, which started out as Engineering Consulting firm but since then have solely focused on toll roads development consultancy
+                            </p>
                             
                             </div>
                         </div>
@@ -187,41 +190,43 @@
                 <div class="row">
                     <div class="blog-grid home-blog">
                         <!-- Start single blog -->
-                        
+                        @foreach ($news as $ns)
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="single-blog">
                                 <div class="blog-image">
                                     <a class="image-scale" href="{{route('news')}}">
-                                        <img src="{{asset('user/img/blog/news1.jpg')}}" alt="">
+                                        <img src="{{asset('user/img/1.jpg')}}" alt="">
                                     </a>
                                 </div>
+                                
                                 <div class="blog-content">
                                  <div class="blog-title">
                                      <div class="blog-meta">
                                         <span class="date-type">
-                                         3 April 2019
+                                         {{$ns->created_at->diffForHumans()}}
                                      </span>
 
                                  </div>
                                  <a href="{{route('news')}}">
-                                    <h4> Jasa Marga tunjuk kontraktor Japek II Selatan pada semester II-2018  </h4>
+                                    <h4> {{ $ns->title }} </h4>
                                 </a>
                             </div>
                             <div class="blog-text">
                                 <p>
-                                    KONTAN.CO.ID - JAKARTA. PT Jasa Marga Tbk (JSMR) berencana membangun ruas tol Jakarta-Cikampek II Selatan pada tahun depan. Sebelumnya, perusahaan akan menunjuk kontraktor pembangunan pada semester II-2018.
-                                    Desi Arryani, Direktur Utama PT Jasa Marga Tbk mengatakan saat ini pihaknya tengah melakukan proses (persiapan), 
+                                    {!!str_limit($ns->body,200)!!}
                                 </p>
                                 <a class="blog-btn" href="{{route('news')}}">Read more</a>
                             </div>
                         </div>
 
+
                     </div>
                 </div>
                 <!-- End single blog -->
-               
+                @endforeach
             </div>
         </div>
+
         <!-- End row -->
     </div>
 </div>

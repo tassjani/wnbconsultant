@@ -67,6 +67,9 @@ Route::group(['namespace' => 'Admin'], function(){
 	//Users Route
 	Route::resource('admin/user','UsersController');
 
+	//Roles Route
+	Route::resource('admin/role','RoleController');
+
 	//About Route
 	Route::resource('admin/about','AboutController');
 	

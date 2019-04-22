@@ -38,6 +38,7 @@ class NewsController extends Controller
     {
         $news = news::with('tags')->find($id);
         $tag = tag::all();
+        $lastUpdate = $news->updated_at->format('d, M Y H:i');
 
         return view('user/news/newsdetail',compact('tag','news'))->with('news',$news);
         

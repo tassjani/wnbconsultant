@@ -156,7 +156,7 @@
                                 </div>
                                 <nav id="dropdown">
                                     <ul>
-                                        <li class="active"><a class="pagess" href="#">Home</a></li>
+                                        <li class="active"><a class="pagess" href="{{ URL::to('/')}}">Home</a></li>
                                         <li><a class="pagess" href="{{ route('about') }}  ">About us</a></li>
                                         <li><a class="pagess" href="{{ route('services') }}">Services</a></li>
                                         <ul class="sub-menu">

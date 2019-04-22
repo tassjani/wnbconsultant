@@ -38,6 +38,7 @@
               </span></a></li>
             <li class=""><a href="{{  route('tag.index')      }}"><i class="fa fa-fw fa-tags"></i> Tags</a></li>
             <li class=""><a href="{{  route('client.index')   }}"><i class="fa fa-money"></i> Clients </a></li>
+            <li class=""><a href="{{  route('role.index')      }}"><i class="fa fa-fw fa-child"></i> Roles</a></li>
             <li class="treeview">
              <a href="#">
               <i class="fa fa-meh-o"></i> <span>User</span>

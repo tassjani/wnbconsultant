@@ -44,6 +44,9 @@
                                 <span class="date-type">
                                     {{  $news->created_at->diffForHumans()  }}
                                 </span>
+                                <div>
+                                   Last Update: {{  $news->updated_at->diffForHumans()  }}
+                               </div>
 
                             </div>
                             <p>

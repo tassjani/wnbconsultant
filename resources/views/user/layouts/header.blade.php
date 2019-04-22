@@ -167,6 +167,30 @@
                                         <li><a class="pagess" href="{{route('project')}}">Projects</a></li>
                                         <li><a class="pagess" href="{{route('news')}}">News</a></li>
                                         <li><a class="pagess" href="{{ route('contacts.index') }}">Contact us</a></li>
+                                          <li>
+                                               
+                                                @if (Auth::guest())
+
+                                                <a class="pagess" href="{{ route('login') }}">login</a>
+                                                    
+                                                @else
+                                                <a class="pagess" href="#">{{Auth::user()->name}}</a>
+                                                    <ul class="sub-menu">
+                                                <li><a href="{{ route('logout') }}"
+                                                onclick="event.preventDefault();
+                                                document.getElementById('logout-form').submit();">
+                                                {{ __('Logout') }}
+                                                </a></li> 
+
+                                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                    @csrf
+                                                </form>
+                                                
+                                                @endif 
+                                                    </ul>   
+                                                
+                                                
+                                            </li>
                                     </ul>
                                 </nav>
                             </div>                  

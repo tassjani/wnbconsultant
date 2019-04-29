@@ -117,9 +117,7 @@
                         <div class="well-services text-center">
                             <div class="services-img" >
                                 <img src="{{asset('user/img/service/6.jpg')}}" style="width: 400px; height: 200px;" alt="">
-                                <div class="image-layer">
-                                    <a href="index.html#"><i class="flaticon-graph" ></i></a>
-                                </div>
+                                
                             </div>
                             <div class="main-services">
                                 <div class="service-content">
@@ -135,9 +133,7 @@
                         <div class="well-services text-center">
                             <div class="services-img">
                                 <img src="{{asset('user/img/background/h2.jpg')}}" style="width: 400px; height: 200px;" alt="">
-                                <div class="image-layer">
-                                    <a href="index.html#"><i class="flaticon-diagram" ></i></a>
-                                </div>
+                                
                             </div>
                             <div class="main-services">
                                 <div class="service-content">
@@ -154,9 +150,7 @@
                         <div class="well-services text-center">
                             <div class="services-img">
                                 <img src="{{asset('user/img/background/4.jpg')}}" style="width: 400px; height: 200px;" alt="">
-                                <div class="image-layer">
-                                    <a href="index.html#"><i class="flaticon-graph-3" ></i></a>
-                                </div>
+                                
                             </div>
                             <div class="main-services">
                                 <div class="service-content">

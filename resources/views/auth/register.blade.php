@@ -1,6 +1,27 @@
-@extends('app')
+@extends('user/app')
 
-@section('content')
+
+@section('main-content')
+<!-- Start Bottom Header -->
+<div class="page-area">
+	<div class="breadcumb-overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="breadcrumb text-center">
+					<div class="section-headline white-headline text-center">
+						<h3>Register</h3>
+					</div>
+					<ul>
+						<li class="home-bread">Home</li>
+						<li>Register</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END Header -->
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
@@ -18,7 +39,7 @@
 						</div>
 					@endif
 
-					<form class="form-horizontal" role="form" method="POST" action="/auth/register">
+					<form class="form-horizontal" role="form" method="POST" action="{{ route('register') }} ">
 						<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
 						<div class="form-group">

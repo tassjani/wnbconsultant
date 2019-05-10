@@ -16,7 +16,7 @@
         <div class="box">
           <div class="box-header">
               <h3 class="box-title">news</h3>
-              <a class="col-lg-offset-5 btn btn-success" href="{{ 'user/create' }}">Create new news post</a>
+              <a class="col-lg-offset-5 btn btn-success" href="{{ 'user/create' }}">Create new news user</a>
             </div>
           <div class="box-header">
             <h3 class="box-title">Data Table With Full Features</h3>
@@ -30,7 +30,7 @@
                   <th>Name</th>
                   <th>Email</th>
                   <th>level</th>
-                  <th>Status</th>
+                  <th>Action</th>
                   
                 </tr>
               </thead>
@@ -40,7 +40,7 @@
                   <tr>
                   <td>{{ $loop->index + 1 }}</td>
                   <td>{{ $user->name }}</td>
-                  
+                  <td>{{$user->role}} </td>
 
                   <td><a href="{{  route('user.edit',$user->id) }}"><span class="glyphicon glyphicon-edit"></span></a>
                     &nbsp;

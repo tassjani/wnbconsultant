@@ -1,15 +1,36 @@
 @extends('user/app')
 
-@section('title','Home | WNB Consultant')
+@section('title','Login | WNB Consultant')
 
 @section('main-content')
+
+<!-- Start Bottom Header -->
+<div class="page-area">
+	<div class="breadcumb-overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="breadcrumb text-center">
+					<div class="section-headline white-headline text-center">
+						<h3>Login</h3>
+					</div>
+					<ul>
+						<li class="home-bread">Home</li>
+						<li>Login</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END Header -->
 <div class="contact-page area-padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-sm-6 col-xs-12">
 				<div class="contact-head">
 					<h3>Login here</h3>
-					<p>Please help us respond to your comment by supplying the following details.</p>
+					<p>Do login here for more exploration</p>
 					
 				</div>
 			</div>
@@ -46,6 +67,8 @@
                            
                             <!-- Change this to a button or input when using this as a form -->
                             <button type="submit" class="btn btn-primary ">Sign me in</button>
+
+                            <a href="{{ route('register') }} " class="btn btn-primary ">Register</a>
 
                         </fieldset>
                     </form>

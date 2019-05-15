@@ -29,7 +29,7 @@
                   <th>No</th>
                   <th>Name</th>
                   <th>Email</th>
-                  <th>level</th>
+                  <th>Role</th>
                   <th>Action</th>
                   
                 </tr>
@@ -40,7 +40,10 @@
                   <tr>
                   <td>{{ $loop->index + 1 }}</td>
                   <td>{{ $user->name }}</td>
-                  <td>{{$user->role}} </td>
+                  <td>{{ $user->email }}</td>
+                  <td>{{ $user->roles }} </td>  
+                  
+                  
 
                   <td><a href="{{  route('user.edit',$user->id) }}"><span class="glyphicon glyphicon-edit"></span></a>
                     &nbsp;

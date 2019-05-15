@@ -16,8 +16,9 @@ class UsersController extends Controller
      */
    public function index()
     {
+        $roles = role::all();
         $users = admin::all();
-        return view('admin/dashboard/user/showUser',compact('users'));
+        return view('admin/dashboard/user/showUser',compact('users','roles'));
     }
 
     /**
@@ -39,7 +40,13 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        return $request->all();
+        $this->validate($request,[
+            'name' => 'required',
+            'email' => 'required',
+            'password' =>'required'
+        ]);
+
+
     }
 
     /**
@@ -61,7 +68,9 @@ class UsersController extends Controller
      */
     public function edit($id)
     {
-        //
+        $roles = role::all();
+        $users = admin::find($id);
+        return view('admin/dashboard/user/editUser',compact('role','users'));
     }
 
     /**
@@ -73,7 +82,7 @@ class UsersController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        
     }
 
     /**
